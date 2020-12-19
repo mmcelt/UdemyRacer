@@ -39,7 +39,7 @@ public class CarController : MonoBehaviour
 
 	void FixedUpdate() 
 	{
-		_theRB.AddForce(new Vector3(0f,0f,_speedInput));
+		_theRB.AddForce(new Vector3(0f, 0f, _speedInput * 1000f));
 	}
 	#endregion
 
